@@ -1,7 +1,9 @@
 product_id,name,category,quantity,reorder_level,unit_price
-P1001,Wireless Mouse,Electronics,18,10,599.00
-P1002,USB-C Cable,Electronics,4,8,249.00
-P1003,Notebook,Stationery,0,15,75.00
-P1004,Desk Organizer,Stationery,22,10,349.00
-P1005,Water Bottle,Home,6,6,399.00
-P1006,LED Lamp,Electronics,12,5,899.00
+P1001,Wireless Mouse,Electronics,18,11,599.0
+P1002,USB-C Cable,Electronics,4,8,249.0
+P1003,Notebook,Stationery,0,15,75.0
+P1004,Desk Organizer,Stationery,22,10,349.0
+P1005,Water Bottle,Home,6,6,399.0
+P1006,LED Lamp,Electronics,12,5,899.0
+DEMO101,Demo Keyboard,Electronics,11,3,500.0
+P1008,Monitor Cable,Electronics,18,10,3000.0

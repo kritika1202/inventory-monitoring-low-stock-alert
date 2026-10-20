@@ -1,0 +1,4 @@
+product_id,name,category,quantity,reorder_level,status,suggested_reorder_quantity,unit_price
+P1002,USB-C Cable,Electronics,4,8,LOW_STOCK,12,249.0
+P1003,Notebook,Stationery,0,15,OUT_OF_STOCK,30,75.0
+P1005,Water Bottle,Home,6,6,LOW_STOCK,6,399.0
