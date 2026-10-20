@@ -60,12 +60,14 @@ class Product:
             return "LOW_STOCK"
         return "IN_STOCK"
 
+    
     @property
     def suggested_reorder_quantity(self) -> int:
-        """Suggest enough units to reach twice the reorder level."""
+        """Suggest enough units to reach the reorder level."""
         if self.stock_status == "IN_STOCK":
             return 0
-        return max((2 * self.reorder_level) - self.quantity, self.reorder_level)
+        return max(self.reorder_level - self.quantity, 0)
+
 
 
 class Inventory:
